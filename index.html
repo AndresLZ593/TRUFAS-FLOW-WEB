@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="/logo.png" class="logo" alt="logo">
+            <ul>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#Nosotros">NOSOTROS</a></li>
+                <li><a href="#Producto">PRODUCTO</a></li>
+                <li><a href="#Contacto">CONTACTO</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor">
+        <div class="fondo"></div>
+        <main>
+
+            <section id="inicio">
+                <h2>INICIO</h2>
+                <p>Nuestra empresa se basa en un producto conocido como "trufas" que son dulces con aspecto y sabor similar al bombón, pero elaborado con una mezcla. Este proyecto empezó a tomar fuerza desde el año 2022 en el que al implementarlo tuvo una buena acogida por la población cercana.</p>
+                <img src="/descarga.jpeg" alt="">
+            </section>
+
+            <section id="Nosotros">
+                <h2>NOSOTROS</h2>
+                <p>Nuestra empresa nació de una idea innovadora en mi anterior institución educativa durante el grado noveno. Inicialmente, buscamos establecernos en la industria alimentaria con productos como los perros calientes, pero pronto nos dimos cuenta de que los altos costos y las bajas ganancias no eran sostenibles. Después de una cuidadosa deliberación con mis compañeros y nuestro director, decidimos enfocarnos en un producto más rentable: las trufas.</p>
+                <p><strong> Misión y visión: </strong> Nuestra empresa se basa en un producto conocido como "trufas" que son dulces con aspecto y sabor similar al bombón, pero elaborado con una mezcla. Este proyecto empezó a tomar fuerza desde el año 2022 en el que al implementarlo tuvo una buena acogida por la población cercana. El equipo directivo el cual cumple la función de gestionar la empresa está encabezado por mí.</p>
+                <p>Nuestra visión y misión coinciden en cada día ser una empresa más exitosa además de aportar desde los valores de nuestra empresa algo a la sociedad.</p>
+            </section>
+
+            <section id="Producto">
+                <h2>PRODUCTO</h2>
+                <table class="styled-table">
+                    <thead> 
+                    <tr>
+                        <th>BIZCOCHO</th>
+                        <th>TRUFAS</th>
+                        <th>CREMA DE TRUFA</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                          <td><img src="Bizcochodechocolate1.jpg" alt="Trufa 1"></td>
+                          <td><img src="trufas3.jpeg" alt="Trufa 2"></td>
+                          <td><img src="cremadetrufa2.jpeg" alt="Trufa 3"></td>  
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="Contacto">
+                <h2>CONTACTO</h2>
+                <p>¿Dónde se encuentran estos productos o servicios? (BOGOTÁ, CUNDINAMARCA)</p>
+                <p><strong>Hable con nosotros:</strong> (3145774837) Llame a este número.</p>
+                <p></p>
+                <div class="form-container">
+                    <h2>CONTACTENOS<h2>
+                    <form action="#" method="POST">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" id="Nombre" name="Nombre" required>
+            
+                        <label for="Email">Email</label>
+                        <input type="email" id="Email" name="Email" required>
+            
+                        <label for="Asunto">Asunto</label>
+                        <input type="text" id="Asunto" name="Asunto" required>
+            
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea id="Mensaje" name="Mensaje" rows="5" required></textarea>
+            
+                        <button type="submit">Enviar Datos</button>
+            </section>
+
+        </main>
+    </div>   
+    <footer>
+        <p>&copy; ANDRES LOZANO © Trufas flow.</p> 
+    </footer>
+</body>
+</html>
